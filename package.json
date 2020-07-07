@@ -1,0 +1,28 @@
+{
+  "name": "subscribe",
+  "version": "1.0.0",
+  "description": "test platform for the Subscribe API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node build/index.js",
+    "watch": "nodemon"
+  },
+  "keywords": [],
+  "author": "Salikh",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.0.18",
+    "nodemon": "^2.0.4",
+    "typescript-http-client": "^0.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salikh888/subscribe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/salikh888/subscribe/issues"
+  },
+  "homepage": "https://github.com/salikh888/subscribe#readme"
+}
