@@ -18,10 +18,16 @@
 // import { request } from 'http';
 import * as http from 'http';
 
-http.createServer( (req, res) => {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('okay');
+// http.createServer( (req, res) => {
+//     res.writeHead(200, {'Content-Type': 'text/plain'});
+//     res.end('okay');
+// });
+export const server = http.createServer();
+server.on('request', (req, res) => {
+    res.end('Основы');
 });
+
+
 // export const req = request(
 //     {
 //         host: 'localhost',
